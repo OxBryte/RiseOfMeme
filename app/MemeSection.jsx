@@ -38,12 +38,11 @@ const MemeSection = () => {
           houses Moo Deng. */}
         </p>
         <div className="w-full mt-8 md:mt-0 justify-center flex">
-          <a
-            href="#"
+          <span
             className=" cursor-pointer w-max min-w-[80%] md:min-w-max uppercase md:mt-[5rem] md:text-[1.8rem] text-xl rounded-[20px] bg-[#10a3e895] border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[17px_25px_14px] hover:bg-[#5bc4f5e8] font-rubber flex gap-8  flex-col md:flex-row text-center justify-center"
           >
             Buy now on dex screener
-          </a>
+          </span>
         </div>
       </div>
 
