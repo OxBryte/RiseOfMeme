@@ -94,12 +94,13 @@ const Footer = () => {
           >
             {!clicked ? "BUY $FUNGIE" : "Copied!"}
           </span>
-          <a
+          <button
             href="#"
             className="md:text-[1.5rem] text-[1.35rem] min-w-max rounded-[20px] bg-[#10a3e895] hover:bg-[#5bc4f5e8] duration-300 ease-in-out border-white/70 border shadow-[9px_9px_0px_1px_#fff] p-[20px_95px_18px] md:p-[17px_25px_14px]"
-          >
+            disabled={true}
+            >
             DEX SCREENER
-          </a>
+          </button>
         </div>
       </Fade>
     </div>
