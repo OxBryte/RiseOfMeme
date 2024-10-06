@@ -12,7 +12,7 @@ const LandingSection = () => {
 
   const CopyCa = () => {
     setClicked(true);
-    navigator.clipboard.writeText("Yet to list");
+    navigator.clipboard.writeText("0xb0f3effabeaf9e2212576e529dafce06ce4ad0229dc31b41945bb093e40fe44a::fungie::FUNGIE");
 
     setTimeout(() => {
       setClicked(false);
